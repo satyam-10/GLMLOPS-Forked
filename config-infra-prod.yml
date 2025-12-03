@@ -20,12 +20,12 @@ variables:
   # DO NOT TOUCH
 
   # For pipeline reference
-  resource_group: default_resourse_group
-  aml_workspace: glmlops2
-  application_insights: glmlops21057134854
-  key_vault: glmlops29175052042
+  resource_group: default_anjana
+  aml_workspace: glops
+  application_insights: glops5891232484
+  key_vault: glops4887767724
   container_registry: ...
-  storage_account: glmlops23503999545
+  storage_account: glops8943090723
   
   # # For terraform reference
   # terraform_version: 0.14.7
