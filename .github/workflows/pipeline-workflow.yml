@@ -1,4 +1,4 @@
-name: pipeline12
+name: pipeline123
 
 on: 
   workflow_dispatch:
@@ -34,7 +34,7 @@ jobs:
       uses: ./.github/workflows/create-compute.yml
       with:
         cluster_name: cpu-cluster
-        size: Standard_D8_v3
+        size: Standard_D2_v3
         min_instances: 0
         max_instances: 1
         cluster_tier: dedicated
