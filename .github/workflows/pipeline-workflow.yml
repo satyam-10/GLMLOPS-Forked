@@ -1,4 +1,4 @@
-name: pipeline123
+name: pipeline1234
 
 on: 
   workflow_dispatch:
@@ -35,7 +35,7 @@ jobs:
       with:
         cluster_name: cpu-cluster
         size: Standard_D2_v3
-        min_instances: 0
+        min_instances: 1
         max_instances: 1
         cluster_tier: dedicated
         resource_group: ${{ needs.get-config.outputs.resource_group }}
