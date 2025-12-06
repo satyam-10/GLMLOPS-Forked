@@ -1,4 +1,4 @@
-name: pipeline12345
+name: pipeline123456
 
 on: 
   workflow_dispatch:
